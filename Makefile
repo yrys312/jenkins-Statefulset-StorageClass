@@ -1,6 +1,6 @@
 k = kubectl --insecure-skip-tls-verify
 private_key = $(shell cat ~/.ssh/jenkins)
-ingress-controller = https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.47.0/deploy/static/provider/aws/deploy.yaml
+ingress-controller = https://raw.githubusercontent.com/spetek/jenkins-Statefulset-StorageClass/main/ingress-controller.yaml
 storageclass = https://raw.githubusercontent.com/spetek/jenkins-Statefulset-StorageClass/main/sc.yaml
 secret = https://raw.githubusercontent.com/spetek/jenkins-Statefulset-StorageClass/main/DB-secret.yaml
 jenkins = https://raw.githubusercontent.com/spetek/jenkins-Statefulset-StorageClass/main/jenkins-v3.yaml
